@@ -1,8 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+//  Each module is contained in it’s own separate file:
+pub mod entrypoint;
+pub mod instruction;
+pub mod processor;
+pub mod state;
